@@ -1,0 +1,6 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+    <qresource prefix="icons">
+        <file alias="arrow-bottom.png">icons/cil-arrow-bottom.png</file>
+    </qresource>
+</RCC>

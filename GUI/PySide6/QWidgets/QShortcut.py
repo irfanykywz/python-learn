@@ -1,0 +1,1 @@
+QShortcut(QtGui.QKeySequence('Ctrl+D'), self, signal)   

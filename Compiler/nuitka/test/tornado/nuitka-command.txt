@@ -1,0 +1,6 @@
+nuitka --mingw64 --prefer-source-code --standalone --include-module=tornado --noinclude-unittest-mode=allow --prefer-source-code --nofollow-import-to=*.test --include-data-files=*.html=./ --include-plugin-directory=ext_packages hello.py
+
+# no enc module small exe size
+nuitka --mingw64 --nofollow-imports --standalone --noinclude-unittest-mode=allow --prefer-source-code --nofollow-import-to=*.test --include-data-files=*.html=./ --include-package-data=ext_packages hello.py
+
+# https://github.com/Nuitka/Nuitka/issues/582
