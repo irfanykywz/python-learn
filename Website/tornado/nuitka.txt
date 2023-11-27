@@ -1,0 +1,7 @@
+nuitka --mingw64 --standalone --include-module=tornado --noinclude-unittest-mode=allow --nofollow-import-to=*.test test.py
+
+nuitka --mingw64 --standalone --include-package=tornado --noinclude-unittest-mode=allow --nofollow-import-to=*.test test.py
+
+--prefer-source-code
+
+# https://github.com/Nuitka/Nuitka/issues/582
