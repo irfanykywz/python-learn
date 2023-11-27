@@ -1,2 +1,5 @@
 # Kumpulan Kode Belajar Python
-10-23-2023
+27-11-2023
+
+# Resource
+- https://pythonbasics.org/#PyQt

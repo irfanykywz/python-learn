@@ -1,0 +1,46 @@
+
+D:\Users\WIN10\Videos\tas>nuitka --follow-imports --enable-plugin=pyside6 --standalone --disable-console app.py
+Nuitka-Options:INFO: Used command line options: --follow-imports --enable-plugin=pyside6 --standalone --disable-console app.py
+Nuitka-Options:INFO: Following all imports is the default for standalone mode and need not be specified.
+Nuitka:INFO: Starting Python compilation with Nuitka '1.5.4' on Python '3.10' commercial grade 'not installed'.
+Nuitka-Plugins:INFO: pyside6: Injecting pre-module load code for module 'PySide6':
+Nuitka-Plugins:INFO: pyside6:     Adding binary folder to runtime 'PATH' environment variable for proper Qt loading.
+Nuitka-Plugins:INFO: pyside6: Injecting post-module load code for module 'PySide6.QtCore':
+Nuitka-Plugins:INFO: pyside6:     Setting Qt library path to distribution folder. We need to avoid loading target
+Nuitka-Plugins:INFO: pyside6:     system Qt plugins, which may be from another Qt version.
+Nuitka-Plugins:INFO: multiprocessing: Injecting pre-module load code for module 'multiprocessing':
+Nuitka-Plugins:INFO: multiprocessing:     Monkey patching "multiprocessing" load environment.
+Nuitka-Plugins:INFO: multiprocessing: Injecting post-module load code for module 'multiprocessing':
+Nuitka-Plugins:INFO: multiprocessing:     Monkey patching "multiprocessing" for compiled methods.
+PASS 1: 58.4%|██████████████▌          | 646/1107, openpyxl.cell.cell       Traceback (most recent call last):
+  File "C:\Users\WIN10\AppData\Local\Programs\Python\Python310\lib\site-packages\nuitka\__main__.py", line 151, in <module>
+    main()
+  File "C:\Users\WIN10\AppData\Local\Programs\Python\Python310\lib\site-packages\nuitka\__main__.py", line 137, in main
+    MainControl.main()
+  File "C:\Users\WIN10\AppData\Local\Programs\Python\Python310\lib\site-packages\nuitka\MainControl.py", line 1090, in main
+    _main()
+  File "C:\Users\WIN10\AppData\Local\Programs\Python\Python310\lib\site-packages\nuitka\MainControl.py", line 950, in _main
+    main_module = _createMainModule()
+  File "C:\Users\WIN10\AppData\Local\Programs\Python\Python310\lib\site-packages\nuitka\MainControl.py", line 244, in _createMainModule
+    optimizeModules(main_module.getOutputFilename())
+  File "C:\Users\WIN10\AppData\Local\Programs\Python\Python310\lib\site-packages\nuitka\optimizations\Optimization.py", line 337, in optimizeModules
+    finished = makeOptimizationPass()
+  File "C:\Users\WIN10\AppData\Local\Programs\Python\Python310\lib\site-packages\nuitka\optimizations\Optimization.py", line 293, in makeOptimizationPass
+    changed = optimizeModule(current_module)
+  File "C:\Users\WIN10\AppData\Local\Programs\Python\Python310\lib\site-packages\nuitka\optimizations\Optimization.py", line 180, in optimizeModule
+    changed = optimizeCompiledPythonModule(module)
+  File "C:\Users\WIN10\AppData\Local\Programs\Python\Python310\lib\site-packages\nuitka\optimizations\Optimization.py", line 140, in optimizeCompiledPythonModule
+    considerUsedModules(module=module, signal_change=signalChange)
+  File "C:\Users\WIN10\AppData\Local\Programs\Python\Python310\lib\site-packages\nuitka\importing\Recursion.py", line 455, in considerUsedModules
+    new_module = recurseTo(
+  File "C:\Users\WIN10\AppData\Local\Programs\Python\Python310\lib\site-packages\nuitka\importing\Recursion.py", line 84, in recurseTo
+    module, added_flag = _recurseTo(
+  File "C:\Users\WIN10\AppData\Local\Programs\Python\Python310\lib\site-packages\nuitka\importing\Recursion.py", line 43, in _recurseTo
+    module, is_added = Building.buildModule(
+  File "C:\Users\WIN10\AppData\Local\Programs\Python\Python310\lib\site-packages\nuitka\tree\Building.py", line 1280, in buildModule
+    ast_tree = parseSourceCodeToAst(
+  File "C:\Users\WIN10\AppData\Local\Programs\Python\Python310\lib\site-packages\nuitka\tree\TreeHelpers.py", line 89, in parseSourceCodeToAst
+    body = ast.parse(source_code, filename)
+  File "C:\Users\WIN10\AppData\Local\Programs\Python\Python310\lib\ast.py", line 50, in parse
+    return compile(source, filename, mode, flags,
+ValueError: source code string cannot contain null bytes
