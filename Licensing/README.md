@@ -1,0 +1,1 @@
+https://stackoverflow.com/questions/261638/how-do-i-protect-python-code-from-being-read-by-users
