@@ -1,0 +1,1 @@
+https://dev.to/dmitryzub/python-virtual-environment-what-why-how-virtualenv-poetry-2nff
