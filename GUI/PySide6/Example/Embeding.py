@@ -25,8 +25,8 @@ def chrome_list():
             pids = win32process.GetWindowThreadProcessId(hwnd)
             for pid in pids:
                 args = get_args(pid)
-                if '--window-size' not in args:
-                    continue
+                # if '--window-size' not in args:
+                #     continue
                 if '--remote-debugging-port' in args and txt:
                     lParam += [hwnd]
             # if 'Facebook' in win32gui.GetWindowText(hwnd):

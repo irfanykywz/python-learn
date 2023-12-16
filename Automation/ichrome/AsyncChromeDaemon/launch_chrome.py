@@ -11,6 +11,7 @@ async def test_examples():
 
         # launch browser
         await chromed.launch_chrome()
+        await chromed.run_forever()
 
 
 

@@ -3,3 +3,4 @@
 
 # Resource
 - https://pythonbasics.org/#PyQt
+- https://pythonassets.com/posts/

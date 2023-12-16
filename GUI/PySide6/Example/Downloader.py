@@ -117,7 +117,8 @@ class Downloader(QWidget):
     def on_pushButton_clicked(self):
         if self.urlfield.text().startswith("http") or self.urlfield.text().startswith("ftp"):
             the_url = self.urlfield.text()
-            the_filesize = requests.get(the_url, stream=True).headers['Content-Length']
+            the_filesize = len(requests.get(the_url, stream=True).content)
+            # the_filesize = requests.get(the_url, stream=True).headers['Content-Length']
             the_filepath = self.namefield.text()
             the_fileobj = open(the_filepath, 'wb')
             #### Create a download thread
