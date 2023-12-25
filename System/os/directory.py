@@ -7,4 +7,4 @@ print(os.getenv('LOCALAPPDATA'))
 print(os.getenv('TEMP'))
 print(os.path.dirname(__file__))
 
-print(os.path.join(os.getenv('APPDATA'), 'TubeTrendy'))
+print(os.path.join(os.getenv('APPDATA'), 'ykywz/'))

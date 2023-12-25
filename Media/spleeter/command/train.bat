@@ -1,0 +1,1 @@
+rem spleeter train -p configs/musdb_config.json -d </path/to/musdb>
