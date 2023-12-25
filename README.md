@@ -1,5 +1,16 @@
-# Kumpulan Kode Belajar Python
-27-11-2023
+# Short code what i learn from Python
+i save here because for prevent losting piece of code...
+
+
+# Tracking
+Agustus - September 2023
+- Basic, Oop, Tkinter, Pyside6
+
+Oktober 2023
+- ichrome
+
+November - Desember 2023
+- ffmpeg, ffprobe, downloader
 
 # Resource
 - https://pythonbasics.org/#PyQt
