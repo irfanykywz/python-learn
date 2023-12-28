@@ -13,5 +13,6 @@ November - Desember 2023
 - ffmpeg, ffprobe, downloader
 
 # Resource
+- https://dasarpemrogramanpython.novalagung.com/
 - https://pythonbasics.org/#PyQt
 - https://pythonassets.com/posts/
