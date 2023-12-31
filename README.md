@@ -12,6 +12,9 @@ Oktober 2023
 November - Desember 2023
 - ffmpeg, ffprobe, downloader
 
+Januari 2024
+- selenium 4
+
 # Resource
 - https://dasarpemrogramanpython.novalagung.com/
 - https://pythonbasics.org/#PyQt
