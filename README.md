@@ -13,7 +13,7 @@ November - Desember 2023
 - ffmpeg, ffprobe, downloader
 
 Januari 2024
-- selenium 4
+- selenium 4, venv, poetry
 
 # Resource
 - https://dasarpemrogramanpython.novalagung.com/
