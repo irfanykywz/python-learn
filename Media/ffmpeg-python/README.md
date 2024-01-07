@@ -9,6 +9,9 @@ FFMPEG HIDE CONSOLE OUTPUT (edit site-package `C:\Users\WIN10\AppData\Local\Prog
 - https://github.com/kkroening/ffmpeg-python/issues/729 
 
 
+FFMPEG TRACK PROGRESS
+- https://github.com/kkroening/ffmpeg-python/issues/43#issuecomment-387666560
+
 RTMP
 - https://github.com/kkroening/ffmpeg-python/issues/257
 

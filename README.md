@@ -14,6 +14,7 @@ November - Desember 2023
 
 Januari 2024
 - selenium 4, venv, poetry
+- psutil
 
 # Resource
 - https://dasarpemrogramanpython.novalagung.com/

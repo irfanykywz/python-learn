@@ -13,3 +13,7 @@ downgrade openpyxl to version 3.0.9 will also help. it works for me.
 
 pip unistall openpyxl
 pip install openpyxl=3.0.9
+
+
+pyside6 
+nuitka --standalone --onefile --enable-plugin=pyside6 app.py

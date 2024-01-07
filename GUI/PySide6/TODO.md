@@ -3,7 +3,6 @@ QDialog
 Signal and Slot
 QTable
 QTree
-
 SizePolicy
 Slider
 QMessageBox
@@ -26,17 +25,25 @@ QProgressBar
 QStatusBar
 QCompleter
 QCalendar
-
-
 QMDISubWindow
 QMDiArea
-
-
-https://www.reddit.com/r/QtFramework/comments/ni27qi/complete_26_part_pyside_tutorial_updated_for/
-
-https://www.pythonguis.com/tutorials/pyside-qprocess-external-programs/
-
-https://www.pythonguis.com/tutorials/pyside-widget-search-bar/
-
-
-https://stackoverflow.com/questions/16673074/how-can-i-fully-disable-resizing-a-window-including-the-resize-icon-when-the-mou
+QProgressBar
+QFrame Table
+QMenu
+QCheckbox	Sebuah kotak centang
+QComboBox	Kotak daftar tarik-turun
+QDateEdit	Untuk mengedit tanggal dan waktu
+QDateTimeEdit	Untuk mengedit tanggal dan waktu
+QDial	Tombol putar yang dapat diputar
+QDoubleSpinbox	Pemintal angka untuk pelampung
+QFontComboBox	Daftar font
+QLCDNumber	Layar LCD yang cukup jelek
+QLabel	Hanya label, tidak interaktif
+QLineEdit	Masukkan sebaris teks
+QProgressBar	Bilah kemajuan
+QPushButton	Sebuah tombol
+QRadioButton	Satu set sakelar, dengan hanya satu item aktif
+QSlider	Sebuah penggeser
+QSpinBox	Pemintal bilangan bulat
+QTimeEdit	Untuk waktu pengeditan
+QSpinBox
